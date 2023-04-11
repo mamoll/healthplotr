@@ -8,7 +8,7 @@ healthplotr <- function(healthdata = NULL) {
   thematic::thematic_shiny()
 
   ui <- shiny::navbarPage(
-    "Health Explorer",
+    "Healthplotr",
     shiny::tabPanel(
       "Records",
       recordsUI("records"),
